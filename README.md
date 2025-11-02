@@ -1,7 +1,7 @@
 # Playwright BDD TypeScript Framework (`playwright-bdd-ts`)
 
-This repository contains a **Behavior-Driven Development (BDD)** automation framework built using **Playwright**, **Cucumber**, and **TypeScript**.  
-It supports both **UI** and **API** test automation within a single unified project structure, enabling maintainable, scalable, and reusable test design.
+* This repository contains a **Behavior-Driven Development (BDD)** automation framework built using **Playwright**, **Cucumber**, and **TypeScript**.  
+* It supports both **UI** and **API** test automation within a single unified project structure, enabling maintainable, scalable, and reusable test design.
 
 ---
 
@@ -19,29 +19,29 @@ It supports both **UI** and **API** test automation within a single unified proj
 ---
 
 ## Setup Instructions
-1. Prerequisites
+1. Prerequisites: 
     Node.js (v20.19.5 or higher)
     npm (comes with Node)
     Visual Studio Code (recommended)
 
-2. Install Dependencies
+2. Install Dependencies: 
     From the project root, run:
-        npm install
+    # npm install
 
 This installs all dependencies listed in package.json.
 
-3. Install Playwright Browsers
-npx playwright install
+3. Install Playwright Browsers: 
+    # npx playwright install
 
 ## Execution Instructions
 1. Run All Tests
-    npm test
+    # npm test
 
 2. Run Only API Scenarios
-    npm run test:api
+    # npm run test:api
 
 3. Run Only UI Scenarios
-    npm run test:ui
+    # npm run test:ui
 
 ---
 

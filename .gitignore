@@ -1,7 +1,4 @@
 node_modules/
-dist/
-coverage/
-test-results/
 allure-report/
 .env
 .vscode/

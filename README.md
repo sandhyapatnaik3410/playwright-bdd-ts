@@ -45,6 +45,10 @@ npx playwright install
 
 ---
 
+## Execution Report 
+
+Latest HTML report location: /reports/html/latest/index.html
+
 ## Framework & Tools Used
 
 | Tool / Library | Version | Purpose |
@@ -81,14 +85,24 @@ playwright-bdd-ts/
 │   ├── HomePage.ts
 │   ├── TaskBotPage.ts
 │   └── ...
+├── reports/                    # To store reports after each execution
+│   ├── html
+│      ├── latest
+           ├── index.html       # latest execution report 
+├── scripts/                    # To generate reports automatically after each execution
+│   ├── run-and-report.js
 ├── step-definitions/         # Step definition files mapping to feature steps
 │   ├── apiLoginSteps.ts
 │   ├── AutomationPageStep.ts
 │   └── Loginstep.ts
 ├── utils/                    # Helper & utility classes
 │   ├── apiHelper.ts
-│   ├── payloadReader.ts
-│   └── globalVariables.ts
+│   ├── generateReport.ts
+│   ├── globalVariables.ts
+│   ├── helper.ts
+│   └── payloadReader.ts
+├── .gitignore.json             
+├── cucumber.json              
 ├── package.json              # NPM configuration
 ├── tsconfig.json             # TypeScript compiler configuration
 └── README.md                 # Project documentation
